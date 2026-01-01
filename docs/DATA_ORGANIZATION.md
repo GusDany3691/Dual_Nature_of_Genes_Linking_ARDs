@@ -233,3 +233,42 @@ Contains:
 
 ## Directory structure (overview)
 
+```
+Retrieved/
+├── Genes_and_diseases
+│ ├── Diseases
+│ ├── Genes_List
+│ ├── HAGR
+│ ├── OMA
+│ ├── Ranges
+│ └── Showcase
+├── Network_Sources
+│ ├── Coexpression
+│ ├── KEGG
+│ └── PPI
+├── Specificity
+└── Ukbb
+
+Generated/
+├── Genes_Enrichment
+├── Networks_and_predictions
+│ ├── Networks
+│ │ ├── PPI
+│ │ ├── KEGG
+│ │ ├── COX90
+│ │ ├── COX95
+│ │ ├── PER-ALGORITHM
+│ │ ├── PER-GRAPH
+│ │ └── MULTIPLEX
+│ ├── Topological_data
+│ │ └── RWR
+├── Permutations
+│ ├── Coexpression
+│ ├── KEGG_Hierarchy
+│ ├── Network_Associations
+│ └── Specificity
+└── Specificity_and_coexpression
+├── Coexpression
+└── Specificity
+```
+
